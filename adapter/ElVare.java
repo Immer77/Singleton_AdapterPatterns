@@ -8,8 +8,12 @@ public class ElVare extends Vare{
 
     @Override
     public double beregnmoms() {
-        double result = getPris() * 1.3;
+        double result = getPris() * 0.3;
+        if(result < 3){
+            return 3;
+        }else{
+            return result;
+        }
 
-        return getPris() * 1.3;
     }
 }

@@ -7,6 +7,6 @@ public class FoedeVare extends Vare{
 
     @Override
     public double beregnmoms() {
-        return getPris() * 1.05;
+        return getPris() * 0.05;
     }
 }

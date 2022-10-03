@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class PersonAdministrator {
     private static PersonAdministrator uniqueInstance;
-    Set<Person> personer = new HashSet<>();
+    private Set<Person> personer = new HashSet<>();
 
     private PersonAdministrator(){
 
