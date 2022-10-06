@@ -166,7 +166,7 @@ public class PersonCollection implements Iterable<Person>{
 
         @Override
         public boolean hasNext() {
-            if(position >= persons.length){
+            if(position >= size){
                 return false;
             }else{
                 return true;
