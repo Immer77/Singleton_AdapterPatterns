@@ -175,7 +175,7 @@ public class PersonCollection implements Iterable<Person>{
 
         @Override
         public Person next() {
-            if(lastKnownSize == persons.length){
+            if(lastKnownSize == size){
                 Person person = persons[position];
                 position++;
                 return person;
